@@ -1,6 +1,3 @@
-# WherrylabDAWebToolkits
-WherryLab Data Analysis Web Toolkits
-
-WherrylabDAWebToolkits
+# WherryLab Data Analysis Web Toolkits
 
 https://wherrylab.github.io/WherrylabDAWebToolkits
