@@ -37,7 +37,7 @@ EOF
 
 total=0
 
-for folder in $(find /project/wherrylab/ -mindepth 2 -maxdepth 2 -type d -user "$USER") $(find /home/"$USER" -mindepth 2 -maxdepth 2 -type d)
+for folder in $(find /project/wherrylab/ -mindepth 2 -maxdepth 2 -type d -user "$USER") $(find /home/"$USER" -mindepth 1 -maxdepth 1 -type d)
     do
     if [ -d "$folder" ]; then
         usage=$(du -s "$folder" | cut -f1)
